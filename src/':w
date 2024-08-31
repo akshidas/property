@@ -1,0 +1,39 @@
+import React, { FunctionComponent, ReactNode } from "react";
+import { Card, Stack, Typography } from "@mui/material";
+import { LinkText } from "components/texts";
+
+type Props = {
+  label: string;
+  component: ReactNode;
+};
+
+const Test: FunctionComponent<Props> = () => {
+  return (
+    <Stack
+      justifyContent="space-between"
+      alignItems="center"
+      mb={2}
+      direction="row"
+    >
+      <Typography variant="subtitle1">rent payment</Typography>
+      <LinkText to="#">see all</LinkText>
+    </Stack>
+  );
+};
+const Properties: FunctionComponent = () => {
+  return (
+    <Card>
+      <Stack
+        justifyContent="space-between"
+        alignItems="center"
+        mb={2}
+        direction="row"
+      >
+        <Typography variant="subtitle1">rent payment</Typography>
+        <LinkText to="#">see all</LinkText>
+      </Stack>
+    </Card>
+  );
+};
+
+export default Properties;

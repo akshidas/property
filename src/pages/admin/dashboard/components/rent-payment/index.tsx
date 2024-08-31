@@ -12,7 +12,7 @@ const RentPayment: FunctionComponent = () => {
         mb={2}
         direction="row"
       >
-        <Typography sx={{ mb: 1 }} variant="subtitle1">
+        <Typography variant="subtitle1">
           rent payment
         </Typography>
         <TextField

@@ -23,7 +23,7 @@ const SmallWidget: FunctionComponent<Props> = ({
       <Typography variant="h5">
         <Currency amount={amount} />
       </Typography>
-      <Typography variant="caption">{growthRate} This week</Typography>
+      <Typography variant="caption">{growthRate} this week</Typography>
     </Card>
   );
 };

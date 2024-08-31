@@ -5,6 +5,7 @@ import { ErrorText, SuccessText } from "components/texts";
 import expenseIcon from "./assets/expense.png";
 import incomeIcon from "./assets/income.png";
 import overdueIcon from "./assets/ovderdue.png";
+import OccupancyWidget from "./components/occupancy";
 
 const AdminDashboard: FunctionComponent = () => {
   return (
@@ -32,6 +33,9 @@ const AdminDashboard: FunctionComponent = () => {
           amount="18,500.00"
           growthRate={<ErrorText>-14%</ErrorText>}
         />
+      </Grid>
+      <Grid size={{ md: 4 }}>
+        <OccupancyWidget />
       </Grid>
     </Grid>
   );

@@ -1,6 +1,6 @@
 import { createTheme } from "@mui/material";
 
-const DEFAULT_SPACING = 2;
+const DEFAULT_SPACING = 1;
 
 const theme = createTheme({
   typography: {

@@ -28,7 +28,7 @@ const PropertyItem: FunctionComponent<Props> = ({
           alt="property"
         />
         <Stack spacing={0}>
-          <Typography variant="subtitle1">{title}</Typography>
+          <Typography variant="subtitle2">{title}</Typography>
           <Typography variant="caption">{subtitle}</Typography>
         </Stack>
       </Stack>

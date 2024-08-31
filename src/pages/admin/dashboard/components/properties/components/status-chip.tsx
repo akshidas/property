@@ -2,7 +2,7 @@ import { Chip } from "@mui/material";
 import { FunctionComponent, useEffect, useState } from "react";
 import { Status } from "./property-item";
 
-type ColorVariants =
+export type ColorVariants =
   | "success"
   | "default"
   | "primary"

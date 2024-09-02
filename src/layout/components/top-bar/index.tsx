@@ -9,12 +9,14 @@ import {
   useTheme,
 } from "@mui/material";
 import { Icon } from "@iconify/react";
+import logo from "./assets/logo.png";
 
 const Topbar = () => {
   return (
     <Card>
       <Stack direction="row" justifyContent="space-between">
-        <Typography variant="h4">Logo</Typography>
+			
+        <img src={logo} alt="logo" width={300} />
         <Stack direction="row" spacing={2} alignItems="center">
           <SearchBar />
           <Box>

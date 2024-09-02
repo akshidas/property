@@ -26,6 +26,8 @@ const theme = createTheme({
     caption: {
       textTransform: "capitalize",
       letterSpacing: DEFAULT_SPACING - 1,
+      fontWeight: "lighter",
+      color: palette.light.grey[500],
     },
     button: {
       textTransform: "capitalize",

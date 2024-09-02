@@ -9,7 +9,7 @@ const Issue: FunctionComponent<Props> = ({ tag, description }) => {
     <Box
       sx={{
         marginTop: 3,
-        "& .issue-card": { backgroundColor: palette.primary.light },
+        "& .issue-card": { backgroundColor: palette.primary.lighter },
         "& .issue-card_tag": { color: palette.primary.dark },
         "& .issue-card_description": { color: palette.primary.dark },
       }}

@@ -1,16 +1,54 @@
 import { createTheme } from "@mui/material";
+import palette from "./palette";
 
 const DEFAULT_SPACING = 1;
 
 const theme = createTheme({
+  palette: palette.light,
   typography: {
+    h1: {
+      textTransform: "capitalize",
+      letterSpacing: DEFAULT_SPACING - 1,
+    },
+    h2: {
+      textTransform: "capitalize",
+      letterSpacing: DEFAULT_SPACING - 1,
+    },
+    subtitle1: {
+      textTransform: "capitalize",
+      letterSpacing: DEFAULT_SPACING - 1,
+    },
+    subtitle2: {
+      textTransform: "capitalize",
+      letterSpacing: DEFAULT_SPACING - 1,
+    },
+
+    caption: {
+      textTransform: "capitalize",
+      letterSpacing: DEFAULT_SPACING - 1,
+    },
     button: {
+      textTransform: "capitalize",
+      letterSpacing: DEFAULT_SPACING - 1,
+    },
+    body1: {
+      textTransform: "capitalize",
+      letterSpacing: DEFAULT_SPACING - 1,
+    },
+    body2: {
       textTransform: "capitalize",
       letterSpacing: DEFAULT_SPACING - 1,
     },
   },
 
   components: {
+    MuiChip: {
+      styleOverrides: {
+        root: {
+          textTransform: "capitalize",
+        },
+      },
+    },
     MuiListItemText: {
       styleOverrides: {
         root: {

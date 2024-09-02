@@ -3,7 +3,7 @@ import { Stack, Typography } from "@mui/material";
 
 type Props = {
   label: string;
-  component: ReactNode;
+  component?: ReactNode;
 };
 
 const CardTitle: FunctionComponent<Props> = ({ label, component }) => {

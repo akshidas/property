@@ -12,6 +12,7 @@ export default defineConfig({
       utils: "/src/utils",
       store: "/src/store",
       theme: "/src/theme",
+      layout: "/src/layout",
     },
   },
   server: {
